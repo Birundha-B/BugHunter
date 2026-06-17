@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+
+# Python build files
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+venv/
+__pycache__/
+.env
+*.pdf
