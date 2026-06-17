@@ -42,7 +42,7 @@ export default function RepositorySecurityPage() {
       const repo = parts[1];
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/repository-security-scan",
+        "http://bughunter-68jr.onrender.com/repository-security-scan",
         {
           owner,
           repo,

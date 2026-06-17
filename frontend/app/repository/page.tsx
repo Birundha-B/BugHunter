@@ -40,7 +40,7 @@ export default function RepositoryPage() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze-repository",
+        "http:////bughunter-68jr.onrender.com/analyze-repository",
         {
           owner: repoInfo.owner,
           repo: repoInfo.repo,
@@ -89,7 +89,7 @@ export default function RepositoryPage() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze-repository-pdf",
+        "http://bughunter-68jr.onrender.com8000/analyze-repository-pdf",
         {
           owner: repoInfo.owner,
           repo: repoInfo.repo,

@@ -16,7 +16,7 @@ export default function SecurityPage() {
       setIssues([]);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/security-scan",
+        "http://bughunter-68jr.onrender.com1:8000/security-scan",
         {
           code,
         }

@@ -13,7 +13,7 @@ export default function AnalyzePage() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze",
+        "http:////bughunter-68jr.onrender.com/analyze",
         {
           code,
         }
