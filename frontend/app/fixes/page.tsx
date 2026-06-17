@@ -13,7 +13,7 @@ export default function FixesPage() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://bughunter-68jr.onrender.com8000/suggest-fixes",
+        "http://bughunter-68jr.onrender.com/suggest-fixes",
         {
           code,
         }
